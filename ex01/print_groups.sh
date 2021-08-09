@@ -1,4 +1,3 @@
 #!/bin/bash
 
-bash | id -Gn | tr -s ' ' ',' | tr -d '\n'
-
+id -Gn | tr -s ' ' ',' | tr -d '\n'
